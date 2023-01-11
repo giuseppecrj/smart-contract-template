@@ -4,15 +4,25 @@
   "main": "index.js",
   "author": "g <5714678+giuseppecrj@users.noreply.github.com>",
   "license": "MIT",
-    "scripts": {
+  "scripts": {
     "solhint": "solhint -f table src/**/*.sol",
     "prettier:solidity": "prettier --write src/**/*.sol"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.1.1",
+    "defender-autotask-client": "^1.4.1",
+    "defender-relay-client": "^1.3.1",
+    "eth-sig-util": "^3.0.1",
     "husky": "^8.0.1",
     "prettier": "^2.7.1",
     "prettier-plugin-solidity": "^1.0.0-beta.24",
+    "rollup": "^2.38.5",
     "solhint": "^3.3.7",
     "solhint-plugin-prettier": "^0.0.5"
+  },
+  "dependencies": {
+    "eslint": "7.11.0"
   }
 }
